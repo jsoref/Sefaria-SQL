@@ -507,7 +507,7 @@ public class Huffman extends SQLite{
 
 	public static void test(){
 		totalCounts = new HashMap<String, Huffman>();
-		String text ="the";//"the one thisa \the one thisa adsufh alksdjfh\na akdsfjhak dflakdfh aiudslfhaddfa pse87riau gsf87adsfj alhdsf kjb akuldshfhaldskjf gg adshfkjadsfh kaldsf adshfkajesdfh aksdjfadskfh akjjdsfh akdsjfhliuefjakldsfm adsfkla dsfjk";//"this is the place that you do things"
+		String text ="the";//"...";//"this is the place that you do things"
 		addTextCount(text);
 		makeTree();
 		List<Boolean> encodedText = encode(text);
